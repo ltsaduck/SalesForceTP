@@ -1,3 +1,4 @@
+```c
 trigger Ej6_C_Trigger on Contact (after insert, after update) {
     
     list<string> updateContact = new list<string>();
@@ -19,3 +20,4 @@ trigger Ej6_C_Trigger on Contact (after insert, after update) {
         }
     }
 }
+```
