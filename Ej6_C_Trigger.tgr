@@ -1,0 +1,21 @@
+trigger Ej6_C_Trigger on Contact (after insert, after update) {
+    
+    list<string> updateContact = new list<string>();
+
+    //como hay que usar upsert en el motodo futuro hay que evitar generar un loop
+    if(system.isFuture()==false){
+
+        for( contact cont : trigger.new ){//en caso de que se hayan creado/actualizado varios usuarios
+            
+            if( cont.idvirtualdreams__c != NULL){//si se completo un ID trabajo, sino no hago nada
+               
+                updateContact.add(cont.idvirtualdreams__c);
+
+            }
+            
+            if(updateContact.size()>0){
+               Ej6_C_HTTP.getAccInfo(updateContact);
+            }
+        }
+    }
+}
