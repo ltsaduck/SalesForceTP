@@ -200,10 +200,10 @@ Chatter es una red social que ayuda a tener una mejor comunicación entre los em
 <h3>Conceptos generales</h3>
 
 **¿Qué significa SaaS? ¿Salesforce es Saas?**  
-Es un modo de distribuir software en el cual el soporte lógico y la información se aloja en los servidores locales de una compañía. Salesforce no es un Saas, pero si ofrece una de sus funcionalidades (CRM)
+Es un modo de distribuir software en el cual el soporte lógico y la información se aloja en los servidores locales de una compañía externa. Salesforce no es un Saas, pero si ofrece una de sus funcionalidades (CRM)
 
 **¿Qué significa que una solución sea Cloud?**  
-Quiere decir que se puede la infraestructura de una empresa proveedora para realizar tareas o almacenar información
+Quiere decir que se puede utilizar la infraestructura de una empresa proveedora para realizar tareas o almacenar información
 
 **¿Qué significa que una solución sea On-Premise?**  
 En este caso el software y hardware esta alojado en los propios servidores de la empresa, por lo tanto, el mantenimiento e instalación depende de uno mismo
