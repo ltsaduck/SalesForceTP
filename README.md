@@ -131,24 +131,112 @@ https://github.com/ltsaduck/SalesForceTP/blob/main/Ej6_C_HTTP.cls
 
 <h2>Ejercicio 7</h2>
 
+<h3>Soluciones de Salesforce</h3>
+
+**¿Qué es Salesforce?**  
+Es una empresa de software bajo demanda que ayudando a mejorar la relación entre las empresas y sus clientes
+
+**¿Qué es Sales Cloud?**  
+Sales Cloud es la parte dentro de Salesforce que ayuda a mejorar la relación empresa-cliente permitiendo guardar información sobre los clientes y automatizar procesos
+
+**¿Qué es Service Cloud?**  
+Es una herramienta que mejora el servicio de atención al cliente la cual facilita el contacto con los clientes, se pueden generar tickets de soporte, gestionar colas, entre otras 
+
+**¿Qué es Health Cloud?**  
+Es una plataforma pensada para mejorar la atención a pacientes dentro de hospitales, clínicas, etc. Entre otras cosas ofrece mejor comunicación con los pacientes, y acceso al historial clínico de cada paciente
+
+**¿Qué es Marketing Cloud?**  
+Es una plataforma que al igual que las anteriores ofrece mejor comunicación con los clientes de las organizaciones para así mejorar las ventas de la empresa
 
 
+<h3>Funcionalidades de Salesforce</h3>
+
+**¿Qué es un RecordType?**  
+Es una herramienta que permite organizar la información sobre un mismo objeto, pero de distintas maneras
+
+**¿Qué es un ReportType?**  
+Es una herramienta que sirve para predefinir una plantilla de reportes con ciertos campos, y que solo afecta a cierto tipo de objetos
+
+**¿Qué es un Page Layout?**  
+Es una opción dentro de salesforce que permite diseñar y darle formato a las paginas donde se crean/editan objetos
+
+**¿Qué es un Compact Layout?**  
+Permite ver algunos registros sobre algún objeto sin necesidad de ingresar a el
+
+**¿Qué es un Perfil?**  
+Un perfil se le asigna a un usuario para limitar el acceso que tiene a objetos, datos y que cosas pueden hacer dentro de la aplicación
+
+**¿Qué es un Rol?**  
+El rol permite decidir el nivel de acceso que va a tener cada usuario a la información almacenada
+
+**¿Qué es un Validation Rule?**  
+Sirve para verificar que los campos completados para un nuevo registro hayan sido completados respetando los parámetros necesarios
+
+**¿Qué diferencia hay entre una relación Master Detail y Lookup?**  
+Master detail sirve para relacionar un child object con su parent, de esta manera el child hereda ciertas cosas y además si el parent es eliminado todos los child también se eliminan. En cambio, el lookup no necesita un parent y no se heredan características
+
+**¿Qué es un Sandbox?**  
+Es un entorno de pruebas que puede copiar toda la información de la organización para que se puedan hacer cambios sin el riesgo de afectar algún servicio o perder registros
+
+**¿Qué es un ChangeSet?**  
+Permite enviar modificaciones de código, objetos y demás de una organización a otra, pudiendo ser de un sandbox a una organización
+
+**¿Para qué sirve el import Wizard de Salesforce?**  
+Sirve para importar información desde un archivo CSV a una organización
+
+**¿Para qué sirve la funcionalidad Web to Lead?**  
+Sirve para guardar información de los visitantes de una página web por medio de un form. Esta información es guardada como un nuevo lead
+
+**¿Para qué sirve la funcionalidad Web to Case?**  
+Permite recibir reclamos/sugerencias de los usuarios directamente desde la pagina web de la organización
+
+**¿Para qué sirve la funcionalidad Omnichannel?**  
+Sirve para asignar tareas (reclamos, soporte técnico, ventas, etc.) a la persona indicada y así agilizar la resolución de las mismas
+
+**¿Para qué sirve la funcionalidad Chatter?**  
+Chatter es una red social que ayuda a tener una mejor comunicación entre los empleados, permitiendo intercambiar archivos o realizar encuestas, entre otras ventajas
 
 
+<h3>Conceptos generales</h3>
 
+**¿Qué significa SaaS? ¿Salesforce es Saas?**  
+Es un modo de distribuir software en el cual el soporte lógico y la información se aloja en los servidores locales de una compañía. Salesforce no es un Saas, pero si ofrece una de sus funcionalidades (CRM)
 
+**¿Qué significa que una solución sea Cloud?**  
+Quiere decir que se puede la infraestructura de una empresa proveedora para realizar tareas o almacenar información
 
+**¿Qué significa que una solución sea On-Premise?**  
+En este caso el software y hardware esta alojado en los propios servidores de la empresa, por lo tanto, el mantenimiento e instalación depende de uno mismo
 
+**¿Qué es un pipeline de ventas?**  
+Son las acciones que realiza un vendedor para lograr una venta
 
+**¿Qué es un funnel de ventas?**  
+Muestra el progreso que un vendedor obtiene en cada etapa de una venta, cuantos compradores quedan o que tan cerca esta de concretarla
 
+**¿Qué significa Customer Experience?**  
+Es el termino que se le da a la idea que tiene un cliente luego de haber interactuado con la empresa. Esta percepción influye en sus futuras decisiones sobre compras a esa misma empresa
 
+**¿Qué significa omnicanalidad?**  
+Es una estrategia para mantener contacto con los clientes por distintos medios, como email o redes sociales
 
+**¿Qué significa que un negocio sea B2B?**  
+Quiere decir que se realiza entre dos empresas. Puede ser comercio mayorista como también prestación de servicios. 
 
+**¿Qué significa que un negocio sea B2C?**  
+En este caso es realizado de una empresa hacia el consumidor final
 
+**¿Qué es un KPI?**  
+es una manera para medir el rendimiento de un proceso basándose en un objetivo que fue fijado previamente
 
+**¿Qué es una API y en qué se diferencia de una Rest API?**  
+API es un conjunto de procedimientos para permitir la conexión entre dos aplicaciones, y REST API es una API que fue creada siguiendo las reglas de la arquitectura REST
 
+**¿Qué es un Proceso Batch?**  
+Es la ejecución de un programa sin necesidad de que alguien este controlando el proceso o los resultados
 
+**¿Qué es Kanban?**  
+Es un sistema de información que sirve para saber cuando es necesario producir más productos y el tiempo que se demora en producirlos
 
-
-
-
+**¿Qué es un ERP? ¿Salesforce es un ERP?**  
+Es un tipo de software que permite a las organizaciones tener un registro y administrar las actividades que realizan cada día. Salesfoce no es un ERP como tal, pero si ofrece ese servicio
