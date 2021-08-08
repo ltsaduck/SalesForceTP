@@ -122,8 +122,8 @@ KnowledgeArticle (que permite leer un artículo y eliminarlo de raíz). Algunos 
 ![objetos](https://user-images.githubusercontent.com/83475096/128378276-a2762e9a-8a13-4042-bcd0-c5f995efc91a.png)
 
 <h2>Ejercicio 6</h2>
-**Trigger**:https://github.com/ltsaduck/SalesForceTP/blob/main/Ej6_C_Trigger.tgr
-**Callout**:https://github.com/ltsaduck/SalesForceTP/blob/main/Ej6_C_HTTP.cls
+**Trigger:** https://github.com/ltsaduck/SalesForceTP/blob/main/Ej6_C_Trigger.tgr
+**Callout:** https://github.com/ltsaduck/SalesForceTP/blob/main/Ej6_C_HTTP.cls
 
 <h2>Ejercicio 7</h2>
 
