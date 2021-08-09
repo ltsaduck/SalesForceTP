@@ -1,7 +1,7 @@
 public class Ej6_C_HTTP {
     
     @future(callout=true)    
-    public static void getAccInfo (string AccId){
+    public static void getAccInfo (list<string> AccId){
 
         Http http=new Http();
         HttpRequest request=new HttpRequest();   
@@ -15,7 +15,8 @@ public class Ej6_C_HTTP {
         list<contact> updAccList = new list<contact>();
         
         try{
-            updAccList = [SELECT email, idvirtualdreams__c FROM Contact WHERE idvirtualdreams__c =:AccId];            
+            //levanto todos los usuarios que tengan ese idvirtualdreams__c
+            updAccList = [SELECT email, idvirtualdreams__c FROM Contact WHERE idvirtualdreams__c IN:AccId];            
         } catch(System.QueryException e){       
             //si no encontro informacion con el query no se ejecuta el resto del codigo
             return;
