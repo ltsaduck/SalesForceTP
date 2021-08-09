@@ -7,15 +7,17 @@ trigger Ej6_C_Trigger on Contact (after insert, after update) {
 
         for( contact cont : trigger.new ){//en caso de que se hayan creado/actualizado varios usuarios
             
-            if( cont.idvirtualdreams__c != NULL){//si se completo un ID trabajo, sino no hago nada
+            if( cont.idvirtualdreams__c == '-MgLzd27XFAOJpPQvVrV'){//si se completo un ID trabajo, sino no hago nada
                
-                updateContact.add(cont.idvirtualdreams__c);
+                //updateContact.add(cont.idvirtualdreams__c);
+                Ej6_C_HTTP.getAccInfo('-MgLzd27XFAOJpPQvVrV');
 
             }
             
-            if(updateContact.size()>0){
-               Ej6_C_HTTP.getAccInfo(updateContact);
-            }
+            //en caso de que sea admitieran otros ID tambien
+            //if(updateContact.size()>0){
+            //  Ej6_C_HTTP.getAccInfo(updateContact);
+            //}
         }
     }
 }
