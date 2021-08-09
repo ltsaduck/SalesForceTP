@@ -124,7 +124,8 @@ KnowledgeArticle (que permite leer un artículo y eliminarlo de raíz). Algunos 
 <h2>Ejercicio 6</h2>
 
 **Mi ID:**  
-ID: -MgLzd27XFAOJpPQvVrV
+ID: -MgLzd27XFAOJpPQvVrV  
+
 ![miID](https://user-images.githubusercontent.com/83475096/128652581-b6dfc77f-2040-456c-8915-4e71777631e5.png)
 
 **Trigger:**  
