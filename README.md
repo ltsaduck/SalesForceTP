@@ -18,11 +18,11 @@ QueryString es una parte de la url que va después de un ‘?’, pero no siempr
 **¿Qué es el responseCode? ¿Qué significado tiene los posibles valores devueltos?**  
 Responsecode hace referencia a una serie de mensajes que indican el resultado de una solicitud HTTP.
 Hay 5 grupos:
-100-199 respuestas informativas
-200-299 respuestas satisfactorias
-300-399 redirecciones
-400-499 errores de los clientes
-500-599 errores de los servidores
+- 100-199 respuestas informativas
+- 200-299 respuestas satisfactorias
+- 300-399 redirecciones
+- 400-499 errores de los clientes
+- 500-599 errores de los servidores
 
 **¿Cómo se envía data en un Get y cómo en un POST?**  
 La información para un get se envía directamente en el querystring (URL), por lo tanto, queda almacenada en el cache. En cambio, para el post se manda directamente desde la solicitud http lo cual da un mayor nivel de privacidad
